@@ -178,7 +178,7 @@ void loop() {
 #endif
       
       lastReport = millis();
-      cardBusy = 300;
+      cardBusy = 3000;
       uidLength = 0;
       return;
     }
